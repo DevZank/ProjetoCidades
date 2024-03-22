@@ -1,0 +1,129 @@
+*{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #9fa5b5;
+    text-decoration: none;
+}
+
+body{
+    background-color: #342d2d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-left: 105px;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: #14110F;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.citySpLogo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.menuIcon {
+    width: 3.125rem;
+}
+
+.contentSP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    gap: 35px;
+}
+
+.compassIcon {
+    width: 30px;
+}
+
+.cityInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.regionCity {
+    margin-top: 20px;
+    display: flex;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.regionCity h3 {
+    font-size: 20px;
+}
+
+.imgSpCity {
+    border-radius: 10px;
+}
+
+.squareGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.squareDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.squareInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 300px;
+    border: 3px #FFF solid;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.squareInfos p {
+    text-align: center;
+    width: 70%;
+}
+
+.squareInfos img {
+    width: 100px;
+    height: 100px;
+}
+
+.textsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.textInfos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.textInfos p {
+    width: 30%;
+    text-align: justify;
+}

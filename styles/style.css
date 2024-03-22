@@ -1,0 +1,115 @@
+*{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #9fa5b5;
+    text-decoration: none;
+}
+
+body{
+    background-color: #342d2d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: #14110F;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.spLogo {
+    width: 3rem;
+}
+
+.menuIcon {
+    width: 3.125rem;
+}
+
+.contentSP {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 35px;
+}
+
+.contentTextSP {
+    display: flex;
+    gap: 20px;
+}
+
+.contentTextSP img {
+    border-radius: 15px;
+}
+
+.imgSpText {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 20px;
+}
+
+.imgSpText img {
+    border-radius: 10px;
+}
+
+.textSP {
+    width: 100%;
+}
+
+.paragraphDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vertical-line {
+    border-left: 1px solid #FFFFFF; /* Escolha a cor e a largura da linha conforme desejado */
+    align-self: center;
+    height: 320px; /* Defina a altura da linha conforme desejado */
+    margin: 0;
+}
+
+
+.contentImgsSP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cityImg {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.cityImg img {
+    box-shadow: 0 0 0.8em #14110F;
+    border-radius: 10px;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+
+.cityImg img:hover {
+   width: 280px;
+   height: 190px;
+   cursor: pointer;
+}
+
+.cityName {
+    text-align: center;
+}
